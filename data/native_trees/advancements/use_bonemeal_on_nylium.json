@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:bone_meal"
+          ]
+        },
+        "location": {
+          "block": {
+            "tag": "minecraft:nylium"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "native_trees:prevent_bone_meal_on_nylium_outside_the_nether"
+  }
+}

@@ -1,0 +1,2 @@
+advancement revoke @s only native_trees:plant_bamboo_sapling_outside_of_jungle
+execute as @s[predicate=!native_trees:in_jungle] run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 minecraft:dead_bush replace minecraft:bamboo_sapling

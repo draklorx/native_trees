@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "minecraft:bamboo_sapling",
+          "location": {}
+        }
+      }
+    },
+    "rewards": {
+      "function": "native_trees:prevent_planting_bamboo_outside_of_jungle"
+    }
+  }
+  
